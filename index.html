@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Нахлебники — первый сэндвич shop Смоленска</title>
+  <meta name="description" content="Сэндвичи, фокачча, содовые и место, где можно остаться. Дзержинского, 4, Смоленск. Ежедневно 12:00—23:00.">
+  <!-- DEMO: убрать noindex на production -->
+  <meta name="robots" content="noindex, nofollow">
+  <!-- TODO production: <link rel="canonical" href="https://ДОМЕН/"> после выбора домена -->
+  <link rel="alternate" hreflang="ru" href="./">
+  <link rel="alternate" hreflang="en" href="en/">
+  <meta name="theme-color" content="#B7FF00">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Нахлебники — первый сэндвич shop Смоленска">
+  <meta property="og:description" content="Сэндвичи, фокачча, содовые и место, где можно остаться. Дзержинского, 4, Смоленск.">
+  <!-- TODO production: og:image — согласованная обложка social/og-cover.webp 1200×630, og:url -->
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fira+Sans+Extra+Condensed:wght@500;700;900&family=PT+Mono&display=swap">
+  <link rel="preload" as="image" href="assets/demo/supplied/hero-mortadella-hand.webp">
+  <link rel="stylesheet" href="css/style.css?v=99">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="js/config.js?v=3" defer></script>
+  <script src="js/main.js?v=20" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержанию</a>
+
+  <!-- Рисованные элементы: круги, стрелки, подчёркивания -->
+  <svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-ring" viewBox="0 0 400 140" preserveAspectRatio="none" fill="none" stroke="currentColor" stroke-linecap="round">
+      <path d="M38 86C20 40 140 14 236 12c90-2 158 22 154 58-4 40-108 62-206 62C86 132 12 112 14 76 16 40 92 22 170 18" stroke-width="5"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 120 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 28C30 8 64 34 112 18" stroke-width="3"/><path d="M98 8l15 10-13 13" stroke-width="3"/>
+    </symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 40 90" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 4C8 30 32 52 18 84" stroke-width="3"/><path d="M6 70l12 15 14-12" stroke-width="3"/>
+    </symbol>
+    <symbol id="i-squiggle" viewBox="0 0 200 20" preserveAspectRatio="none" fill="none" stroke="currentColor" stroke-linecap="round">
+      <path d="M3 12c20-10 30 8 50 0s30-8 50 0 30 8 50 0 30-6 44-2" stroke-width="4"/>
+    </symbol>
+    <symbol id="i-smile" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-linecap="round">
+      <path d="M30 4C14 3 4 15 5 31c1 15 13 25 27 24 15-1 24-13 23-27C54 14 43 4 28 5" stroke-width="2.5"/><path d="M21 22v5M38 21v5" stroke-width="3"/><path d="M17 36c5 8 20 9 26-1" stroke-width="2.5"/>
+    </symbol>
+    <symbol id="i-burger" viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 34C14 14 40 4 60 4s46 10 48 30z" stroke-width="3"/><path d="M38 16l2 2M58 12l2 1M78 16l2 2M50 24l2 1M70 24l2 1" stroke-width="3"/>
+      <path d="M8 44c10-6 18 6 28 0s18 6 28 0 18 6 28 0 14 4 20 0" stroke-width="3"/><path d="M10 54h100" stroke-width="3"/>
+      <path d="M14 62h92c0 8-8 14-18 14H32c-10 0-18-6-18-14z" stroke-width="3"/>
+    </symbol>
+    <symbol id="i-heart" viewBox="0 0 40 36" fill="none" stroke="currentColor" stroke-linecap="round">
+      <path d="M20 33C8 24 2 17 4 10c2-7 11-8 16 0 4-8 14-7 16 0 2 8-6 15-16 23z" stroke-width="2.5"/>
+    </symbol>
+  </svg>
+
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner">
+      <a class="wordmark" href="#top" aria-label="Нахлебники — наверх">НА<span class="glyph-x" aria-hidden="true"></span>ЛЕБНИКИ<sup>®</sup></a>
+      <nav class="nav" id="site-nav" aria-label="Основная навигация">
+        <ul class="nav__list">
+          <li><a href="#sandwiches">СЭНДВИЧИ</a></li>
+          <li><a href="#menu">МЕНЮ</a></li>
+          <li><a href="#afisha">АФИША</a></li>
+          <li><a href="#place">ГДЕ МЫ</a></li>
+          <li><a href="en/" lang="en" hreflang="en">EN</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--black btn--sm" data-order href="https://play.google.com/store/apps/details?id=com.rubeacon.nahlebniky" target="_blank" rel="noopener" aria-label="Заказать в приложении для Android, Google Play, откроется в новой вкладке">ЗАКАЗАТЬ <span aria-hidden="true">↗</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__label">МЕНЮ</span>
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 1. HERO -->
+    <section class="hero sec sec--lime" id="top" aria-labelledby="hero-title">
+      <div class="hero__grid">
+        <p class="hero__eyebrow" data-bind="brand.tagline">ПЕРВЫЙ СЭНДВИЧ SHOP СМОЛЕНСКА</p>
+        <h1 class="hero__title worn" id="hero-title">
+          <span class="visually-hidden">Нахлебники — первый сэндвич shop Смоленска</span>
+          <span class="hero__word" aria-hidden="true">НА<span class="glyph-x" aria-hidden="true"></span></span>
+          <span class="hero__word" aria-hidden="true">ЛЕБ</span>
+          <span class="hero__word" aria-hidden="true">НИКИ</span>
+        </h1>
+
+        <figure class="hero__photo demo-photo">
+          <img class="cutout" src="assets/demo/supplied/hero-mortadella-hand.webp" width="1200" height="990" fetchpriority="high"
+               alt="Рука держит сэндвич на фокачче с мортаделлой, сливочным соусом и фисташками в фирменной бумаге">
+        </figure>
+
+        <img class="hero__zh sticker-spin" src="assets/brand/sticker-zh.webp" width="640" height="633" alt="">
+
+        <p class="hero__sticker paper-scrap" aria-hidden="true">ИХ НЕ НАДО<br>ЕСТЬ КРАСИВО.<svg class="hero__sticker-arrow"><use href="#i-arrow"/></svg></p>
+
+        <div class="hero__meta mono">
+          <p data-bind="brand.addressShort">Дзержинского, 4</p>
+          <p data-bind="brand.hours">Ежедневно 12:00—23:00</p>
+          <svg class="hero__meta-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </div>
+
+        <div class="hero__ctas">
+          <a class="btn btn--black btn--sm" href="#sandwiches">СМОТРЕТЬ МЕНЮ <span aria-hidden="true">↓</span></a>
+          <a class="btn btn--outline btn--sm" data-order href="https://play.google.com/store/apps/details?id=com.rubeacon.nahlebniky" target="_blank" rel="noopener" aria-label="Заказать в приложении для Android, Google Play, откроется в новой вкладке">ЗАКАЗАТЬ <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. MANIFESTO -->
+    <section class="manifesto sec sec--paper sec--torn" id="manifesto" aria-labelledby="manifesto-title">
+      <div class="manifesto__grid">
+        <h2 class="manifesto__title display" id="manifesto-title">
+          <span class="ringed"><span class="worn">СЕРЬЁЗНО<br>ОТНОСИМСЯ<br>К&nbsp;СЭНДВИЧАМ.</span><svg class="ring" aria-hidden="true" preserveAspectRatio="none"><use href="#i-ring"/></svg></span>
+        </h2>
+        <div class="manifesto__body mono">
+          <p>Своя фокачча,<br>авторские соусы,<br>много начинки<br>и&nbsp;никакого пафоса.</p>
+          <svg class="manifesto__smile" aria-hidden="true"><use href="#i-smile"/></svg>
+        </div>
+        <p class="manifesto__note hand">Ко всему остальному<br>не очень.<svg aria-hidden="true"><use href="#i-arrow"/></svg></p>
+        <figure class="manifesto__found">
+          <img src="assets/demo/supplied/mouth-print.webp" width="860" height="720" loading="lazy" alt="">
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3. СЭНДВИЧИ -->
+    <section class="sandwiches sec sec--black sec--torn" id="sandwiches" aria-labelledby="sandwiches-title">
+      <h2 class="visually-hidden" id="sandwiches-title">Сэндвичи — главные герои</h2>
+      <button class="rail-btn rail-btn--prev" type="button" data-rail="prev" aria-controls="rail" aria-label="Предыдущий сэндвич">←</button>
+      <button class="rail-btn rail-btn--next" type="button" data-rail="next" aria-controls="rail" aria-label="Следующий сэндвич">→</button>
+      <p class="visually-hidden" aria-live="polite">Сэндвич <span data-rail-current>1</span> из <span data-rail-total>7</span></p>
+      <div class="rail" id="rail" tabindex="0" role="region" aria-roledescription="карусель" aria-label="Сэндвичи. Листать стрелками влево и вправо, Home и End — первый и последний">
+        <ol class="rail__track" data-render="sandwiches">
+          <li class="state-msg mono">Загружаем сэндвичи…</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- полоса ценников -->
+    <nav class="strip sec sec--paper" aria-label="Все сэндвичи и цены">
+      <ol class="strip__list" data-render="strip"></ol>
+      <a class="strip__more" href="#menu"><svg class="strip__burger" aria-hidden="true"><use href="#i-burger"/></svg><span>СМОТРЕТЬ<br>ПОЛНОЕ МЕНЮ</span> <svg class="strip__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </nav>
+
+    <!-- 4. КОМБО -->
+    <section class="combo sec sec--lime sec--drip sec--prev-paper" id="combo" aria-labelledby="combo-title">
+      <div class="combo__grid">
+        <div class="combo__text">
+          <h2 class="combo__title display" id="combo-title"><span class="worn" data-bind="combo.title">К-К-К-КОМБО!</span></h2>
+          <p class="combo__body" data-bind="combo.description">Сэндвич + фри или батат + кола или пиво.</p>
+          <button class="btn btn--black combo__toggle" type="button" aria-expanded="false" aria-controls="combo-prices">
+            <span data-label>СМОТРЕТЬ КОМБО</span> <span class="combo__toggle-icon" aria-hidden="true">+</span>
+          </button>
+        </div>
+        <figure class="combo__photo">
+          <img class="cutout" src="assets/demo/cutouts/combo-4.webp" width="1100" height="724" loading="lazy"
+               alt="Поднос: сэндвич, картофель фри, соус, бокал пива и кола со льдом">
+        </figure>
+        <div class="combo__prices" id="combo-prices" data-render="combo" hidden></div>
+      </div>
+    </section>
+
+    <!-- 5. МЕНЮ -->
+    <section class="menu sec sec--paper sec--torn" id="menu" aria-labelledby="menu-title">
+      <div class="menu__grid">
+        <div class="menu__aside">
+          <p class="eyebrow mono">02 / НЕ ТОЛЬКО СЭНДВИЧИ</p>
+          <h2 class="menu__title display" id="menu-title"><span class="worn">ЕЩЁ<br>ПОЕСТЬ.</span></h2>
+          <figure class="menu__photo menu__photo--salad">
+            <img class="cutout" src="assets/demo/cutouts/salad-schnitzel.webp" width="900" height="822" loading="lazy"
+                 alt="Салат со шницелем, черри, каперсами и пармезаном на фирменной бумаге">
+          </figure>
+        </div>
+        <div class="menu__list" data-render="menu">
+          <p class="state-msg mono">Загружаем меню…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. АФИША -->
+    <section class="afisha sec sec--black sec--torn" id="afisha" aria-labelledby="afisha-title">
+      <p class="eyebrow mono">03 / ЧТО ТВОРИТСЯ</p>
+      <h2 class="visually-hidden" id="afisha-title">Афиша: не только жевать</h2>
+      <div class="afisha__feed" data-render="afisha" aria-live="polite" aria-busy="true">
+        <div class="afisha-loading" role="status">
+          <span class="visually-hidden">Загружаем афишу</span>
+          <span class="skel"></span><span class="skel skel--short"></span><span class="skel"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. МЕСТО -->
+    <section class="place sec sec--paper sec--drip sec--prev-black" id="place" aria-labelledby="place-title">
+      <figure class="place__main demo-photo">
+        <img src="assets/demo/review-photos/place-main-lg.webp"
+             srcset="assets/demo/review-photos/place-main-sm.webp 640w, assets/demo/review-photos/place-main-lg.webp 960w"
+             sizes="(min-width: 768px) 58vw, 100vw" width="960" height="1280" loading="lazy"
+             alt="Зал: столы в клетчатых скатертях, стена из старых телевизоров, граффити и плакаты">
+        <p class="place__hand hand" aria-hidden="true">больше<br>чем сэндвичи<svg><use href="#i-squiggle"/></svg></p>
+      </figure>
+      <div class="place__paper">
+        <div class="place__text">
+          <p class="eyebrow mono">04 / <span data-bind="brand.addressShort">Дзержинского, 4</span></p>
+          <h2 class="place__title display" id="place-title"><span class="ringed"><span class="worn">МОЖНО<br>ОСТАТЬСЯ.</span><svg class="ring" aria-hidden="true" preserveAspectRatio="none"><use href="#i-ring"/></svg></span></h2>
+          <ul class="place__list mono">
+            <li>Телеки</li><li>Кассеты</li><li>Аркады</li><li>Сэндвичи</li><li>Содовая</li><li>Свои люди</li>
+          </ul>
+          <svg class="place__arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+          <p class="place__caption hand">Приходи поесть.<br>Оставайся зависнуть.</p>
+          <address class="place__address mono">
+            <span data-bind="brand.address">Дзержинского, 4, Смоленск</span><br>
+            <span data-bind="brand.hours">Ежедневно 12:00—23:00</span>
+          </address>
+        </div>
+        <figure class="place__top demo-photo taped">
+          <img src="assets/demo/review-photos/place-toys-lg.webp"
+               srcset="assets/demo/review-photos/place-toys-sm.webp 400w, assets/demo/review-photos/place-toys-lg.webp 640w"
+               sizes="(min-width: 768px) 18vw, 50vw" width="640" height="624" loading="lazy"
+               alt="Фигурки черепашки-ниндзя и Сплинтера на полке над телевизором">
+        </figure>
+        <figure class="place__polaroid demo-photo">
+          <img src="assets/demo/review-photos/place-light-sm.webp"
+               srcset="assets/demo/review-photos/place-light-sm.webp 400w, assets/demo/review-photos/place-light-lg.webp 640w"
+               sizes="(min-width: 768px) 14vw, 44vw" width="400" height="420" loading="lazy"
+               alt="Хрустальная люстра на фоне стены с граффити">
+        </figure>
+        <p class="place__sign hand" aria-hidden="true">Смоленск <svg><use href="#i-heart"/></svg><br>Дзержинского, 4</p>
+      </div>
+    </section>
+
+    <!-- 8. ФИНАЛЬНЫЙ CTA -->
+    <section class="final sec sec--lime sec--torn" id="order" aria-labelledby="final-title">
+      <p class="eyebrow mono">ПРОГОЛОДАЛСЯ?</p>
+      <h2 class="final__title display" id="final-title"><span class="worn">САДИСЬ<br>НА ШЕЮ.</span></h2>
+      <p class="final__body">Первый сэндвич shop Смоленска.</p>
+      <p class="final__meta mono"><span data-bind="brand.addressShort">Дзержинского, 4</span> / <span data-bind="brand.hours">Ежедневно 12:00—23:00</span></p>
+      <div class="final__ctas">
+        <a class="btn btn--black btn--xl" data-order href="https://play.google.com/store/apps/details?id=com.rubeacon.nahlebniky" target="_blank" rel="noopener" aria-label="Заказать в приложении для Android, Google Play, откроется в новой вкладке">ЗАКАЗАТЬ <span aria-hidden="true">↗</span></a>
+        <span data-render="route"></span>
+      </div>
+      <img class="final__visual" src="assets/demo/supplied/final-dog.webp?v=2" width="1000" height="1000" loading="lazy"
+           alt="Собака в очках сидит на плечах у человека, рядом сэндвич в фирменной бумаге — коллаж">
+    </section>
+  </main>
+
+  <footer class="footer sec sec--black sec--torn">
+    <div class="footer__top">
+      <a class="footer__wordmark" href="#top">НА<span class="visually-hidden">Х</span><span class="glyph-x" aria-hidden="true"></span>ЛЕБНИКИ<sup>®</sup></a>
+      <nav aria-label="Ссылки в подвале">
+        <ul class="footer__links">
+          <li><a href="#sandwiches">Сэндвичи</a></li>
+          <li><a href="#menu">Меню</a></li>
+          <li><a href="#afisha">Афиша</a></li>
+          <li><a href="#place">Где мы</a></li>
+          <li><a data-href="links.vk" href="https://vk.ru/nahlebnikishop" target="_blank" rel="noopener">VK <span aria-hidden="true">↗</span><span class="visually-hidden">(откроется в новой вкладке)</span></a></li>
+          <li><a data-order href="https://play.google.com/store/apps/details?id=com.rubeacon.nahlebniky" target="_blank" rel="noopener">Приложение <span aria-hidden="true">↗</span><span class="visually-hidden">(Android, Google Play, откроется в новой вкладке)</span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer__closing display"><span class="worn">ИХ ВСЁ ЕЩЁ НЕ НАДО ЕСТЬ КРАСИВО.</span></p>
+  </footer>
+
+  <noscript><p class="noscript mono">Меню и афиша подгружаются скриптом. Полное меню и заказ — в <a href="https://play.google.com/store/apps/details?id=com.rubeacon.nahlebniky">приложении</a> и <a href="https://vk.ru/nahlebnikishop">в VK</a>.</p></noscript>
+</body>
+</html>

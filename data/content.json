@@ -1,0 +1,105 @@
+{
+  "brand": {
+    "name": "НАХЛЕБНИКИ®",
+    "tagline": "ПЕРВЫЙ СЭНДВИЧ SHOP СМОЛЕНСКА",
+    "address": "Дзержинского, 4, Смоленск",
+    "hours": "Ежедневно 12:00—23:00",
+    "manifesto": "ИХ НЕ НАДО ЕСТЬ КРАСИВО."
+  },
+  "links": {
+    "vk": "https://vk.ru/nahlebnikishop",
+    "androidApp": "https://play.google.com/store/apps/details?id=com.rubeacon.nahlebniky",
+    "iosApp": null,
+    "map": null
+  },
+  "sandwiches": [
+    {"id": "sandwich-01", "name": "Мортаделла", "description": "Мортаделла / фисташковый крем / яйцо", "price": 490, "labels": []},
+    {"id": "sandwich-02", "name": "Буженина", "description": "Буженина / маринованный огурец / барбекю соус", "price": 590, "labels": []},
+    {"id": "sandwich-03", "name": "Пастрами", "description": "Пастрами / сливочный крем / печёный перец", "price": 660, "labels": []},
+    {"id": "sandwich-04", "name": "Креветки", "description": "Креветки / крем том ям / шиитаке", "price": 620, "labels": []},
+    {"id": "sandwich-05", "name": "Куриный шницель", "description": "Куриный шницель / чимичурри / азиатский соус", "price": 490, "labels": []},
+    {"id": "sandwich-06", "name": "Тунец", "description": "Тунец / яичный салат", "price": 670, "labels": []},
+    {"id": "sandwich-07", "name": "Пеперони", "description": "Пеперони / моцарелла / чеддер / чили паста", "price": 610, "labels": ["НЬЮ", "ХОТ"]}
+  ],
+  "combo": {
+    "title": "К-К-К-КОМБО!",
+    "description": "Сэндвич + фри или батат + кола или пиво.",
+    "availableFor": [
+      {
+        "sandwichIds": ["sandwich-01", "sandwich-05"],
+        "options": [
+          {"side": "картофель фри", "drink": "кола", "price": 780},
+          {"side": "картофель фри", "drink": "пиво", "price": 840},
+          {"side": "батат фри", "drink": "кола", "price": 820},
+          {"side": "батат фри", "drink": "пиво", "price": 880}
+        ]
+      },
+      {
+        "sandwichIds": ["sandwich-02"],
+        "options": [
+          {"side": "картофель фри", "drink": "кола", "price": 840},
+          {"side": "картофель фри", "drink": "пиво", "price": 900},
+          {"side": "батат фри", "drink": "кола", "price": 910},
+          {"side": "батат фри", "drink": "пиво", "price": 970}
+        ]
+      }
+    ]
+  },
+  "menuSections": [
+    {"id": "poutine", "title": "ПУТИН", "items": [
+      {"id": "poutine-sweet-potato-pork", "name": "Батат + буженина", "price": 430},
+      {"id": "poutine-sweet-potato-pastrami", "name": "Батат + пастрами", "price": 540},
+      {"id": "poutine-potato-pork", "name": "Картофель + буженина", "price": 360},
+      {"id": "poutine-potato-pastrami", "name": "Картофель + пастрами", "price": 450}
+    ]},
+    {"id": "salads", "title": "САЛАТЫ", "items": [
+      {"id": "salad-olivier-2077", "name": "Оливье 2077", "price": 410, "labels": ["НЬЮ"]},
+      {"id": "salad-schnitzel", "name": "Салат со шницелем", "price": 440},
+      {"id": "salad-tuna", "name": "Салат с тунцом", "price": 480}
+    ]},
+    {"id": "sides", "title": "ГАРНИРЫ", "items": [
+      {"id": "side-sweet-potato", "name": "Батат фри", "price": 250},
+      {"id": "side-potato", "name": "Картофель фри", "price": 220},
+      {"id": "side-sauce", "name": "Соус в ассортименте", "price": 60}
+    ]},
+    {"id": "desserts", "title": "ДЕСЕРТЫ", "items": [
+      {"id": "dessert-cookies", "name": "Кукисы", "price": 290, "labels": ["НЬЮ"]},
+      {"id": "dessert-mississippi", "name": "Грязь Миссисипи", "price": 460},
+      {"id": "dessert-banoffee", "name": "Карамельно-банановый баноффи", "price": 420}
+    ]},
+    {"id": "sodas", "title": "НАШИ СОДОВЫЕ", "note": "0,2 / 0,4 л", "items": [
+      {"id": "soda-cocoa-bergamot", "name": "Какао / бергамот", "price": 180, "priceText": "180 / 250 ₽", "unit": "0,2 / 0,4 л"},
+      {"id": "soda-cola-nah", "name": "Кола-НАХ", "price": 180, "priceText": "180 / 250 ₽", "unit": "0,2 / 0,4 л"},
+      {"id": "soda-duchesse-nah", "name": "Дюшес-НАХ", "price": 180, "priceText": "180 / 250 ₽", "unit": "0,2 / 0,4 л"}
+    ]},
+    {"id": "coffee", "title": "КОФЕ", "items": [
+      {"id": "coffee-espresso", "name": "Эспрессо", "price": 160, "unit": "40 мл"},
+      {"id": "coffee-americano", "name": "Американо", "price": 160, "unit": "200 мл"},
+      {"id": "coffee-cappuccino", "name": "Капучино", "price": 180, "unit": "200 мл"},
+      {"id": "coffee-latte", "name": "Латте", "price": 190, "unit": "300 мл"},
+      {"id": "coffee-filter", "name": "Фильтр", "price": 150, "unit": "250 мл"},
+      {"id": "coffee-espresso-tonic", "name": "Эспрессо-тоник", "price": 220, "unit": "300 мл"},
+      {"id": "coffee-bumble", "name": "Бамбл", "price": 250, "unit": "300 мл"}
+    ]},
+    {"id": "draft-beer", "title": "ПИВО НА КРАНЕ", "note": "0,4 л", "items": [
+      {"id": "beer-lager-nah", "name": "Лагер-НАХ", "price": 250, "unit": "0,4 л"},
+      {"id": "beer-weiss-nah", "name": "Вайс-НАХ", "price": 250, "unit": "0,4 л"}
+    ]},
+    {"id": "drinks", "title": "НАПИТКИ", "items": [
+      {"id": "drink-cola", "name": "Кола / Кола Zero", "price": 300, "unit": "0,33 л"},
+      {"id": "drink-water", "name": "Вода газ / без газа", "price": 180, "unit": "0,5 л"},
+      {"id": "drink-burn", "name": "Burn", "price": 250, "unit": "0,3 л"},
+      {"id": "drink-juice", "name": "Сок", "price": 250, "unit": "0,3 л", "flavours": ["апельсин", "вишня", "яблоко"]}
+    ]}
+  ],
+  "events": [],
+  "prelaunchVerify": [
+    "Подтвердить у владельцев формулировки о собственном производстве: фокачча, соусы, маринованные ингредиенты, содовые.",
+    "Добавить реальную iOS-ссылку, если она нужна.",
+    "Добавить проверенную ссылку на карты/маршрут.",
+    "Подтвердить, что часы 12:00—23:00 актуальны на дату публикации.",
+    "Подключить production data source/API для афиши и Telegram-бота.",
+    "Проверить доступность, состав и цены меню перед запуском.",
+    "Получить разрешение на публикацию предоставленных фотографий и графики айдентики."
+  ]
+}

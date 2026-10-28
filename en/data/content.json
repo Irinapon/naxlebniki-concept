@@ -1,0 +1,358 @@
+{
+  "brand": {
+    "name": "NAXLEBNIKI®",
+    "tagline": "BROOKLYN’S FIRST SANDWICH SHOP",
+    "address": "416 Grand St, Brooklyn, NY",
+    "hours": "Daily 12 PM—11 PM",
+    "manifesto": "DON'T EAT THEM PRETTY."
+  },
+  "links": {
+    "vk": "https://vk.ru/nahlebnikishop",
+    "androidApp": "https://play.google.com/store/apps/details?id=com.rubeacon.nahlebniky",
+    "iosApp": null,
+    "map": null
+  },
+  "sandwiches": [
+    {
+      "id": "sandwich-01",
+      "name": "Mortadella",
+      "description": "Mortadella / pistachio cream / egg",
+      "price": 14,
+      "labels": []
+    },
+    {
+      "id": "sandwich-02",
+      "name": "Roast Pork",
+      "description": "Roast pork / pickles / BBQ sauce",
+      "price": 15,
+      "labels": []
+    },
+    {
+      "id": "sandwich-03",
+      "name": "Pastrami",
+      "description": "Pastrami / cream cheese / roasted pepper",
+      "price": 16,
+      "labels": []
+    },
+    {
+      "id": "sandwich-04",
+      "name": "Shrimp",
+      "description": "Shrimp / tom yum cream / shiitake",
+      "price": 17,
+      "labels": []
+    },
+    {
+      "id": "sandwich-05",
+      "name": "Chicken Schnitzel",
+      "description": "Chicken schnitzel / chimichurri / Asian sauce",
+      "price": 14,
+      "labels": []
+    },
+    {
+      "id": "sandwich-06",
+      "name": "Tuna",
+      "description": "Tuna / egg salad",
+      "price": 16,
+      "labels": []
+    },
+    {
+      "id": "sandwich-07",
+      "name": "Pepperoni",
+      "description": "Pepperoni / mozzarella / cheddar / chili paste",
+      "price": 15,
+      "labels": [
+        "NEW",
+        "HOT"
+      ]
+    }
+  ],
+  "combo": {
+    "title": "C-C-C-COMBO!",
+    "description": "Sandwich + fries or sweet potato fries + cola or beer.",
+    "availableFor": [
+      {
+        "sandwichIds": [
+          "sandwich-01",
+          "sandwich-05"
+        ],
+        "options": [
+          {
+            "side": "fries",
+            "drink": "cola",
+            "price": 20
+          },
+          {
+            "side": "fries",
+            "drink": "beer",
+            "price": 22
+          },
+          {
+            "side": "sweet potato fries",
+            "drink": "cola",
+            "price": 21
+          },
+          {
+            "side": "sweet potato fries",
+            "drink": "beer",
+            "price": 23
+          }
+        ]
+      },
+      {
+        "sandwichIds": [
+          "sandwich-02"
+        ],
+        "options": [
+          {
+            "side": "fries",
+            "drink": "cola",
+            "price": 21
+          },
+          {
+            "side": "fries",
+            "drink": "beer",
+            "price": 23
+          },
+          {
+            "side": "sweet potato fries",
+            "drink": "cola",
+            "price": 22
+          },
+          {
+            "side": "sweet potato fries",
+            "drink": "beer",
+            "price": 24
+          }
+        ]
+      }
+    ]
+  },
+  "menuSections": [
+    {
+      "id": "poutine",
+      "title": "POUTINE",
+      "items": [
+        {
+          "id": "poutine-sweet-potato-pork",
+          "name": "Sweet potato + roast pork",
+          "price": 12
+        },
+        {
+          "id": "poutine-sweet-potato-pastrami",
+          "name": "Sweet potato + pastrami",
+          "price": 14
+        },
+        {
+          "id": "poutine-potato-pork",
+          "name": "Potato + roast pork",
+          "price": 10
+        },
+        {
+          "id": "poutine-potato-pastrami",
+          "name": "Potato + pastrami",
+          "price": 12
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "title": "SALADS",
+      "items": [
+        {
+          "id": "salad-olivier-2077",
+          "name": "Olivier 2077",
+          "price": 11,
+          "labels": [
+            "NEW"
+          ]
+        },
+        {
+          "id": "salad-schnitzel",
+          "name": "Schnitzel salad",
+          "price": 12
+        },
+        {
+          "id": "salad-tuna",
+          "name": "Tuna salad",
+          "price": 13
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "title": "SIDES",
+      "items": [
+        {
+          "id": "side-sweet-potato",
+          "name": "Sweet potato fries",
+          "price": 6
+        },
+        {
+          "id": "side-potato",
+          "name": "Fries",
+          "price": 5
+        },
+        {
+          "id": "side-sauce",
+          "name": "Dipping sauce",
+          "price": 1
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "title": "DESSERTS",
+      "items": [
+        {
+          "id": "dessert-cookies",
+          "name": "Cookies",
+          "price": 7,
+          "labels": [
+            "NEW"
+          ]
+        },
+        {
+          "id": "dessert-mississippi",
+          "name": "Mississippi Mud Pie",
+          "price": 9
+        },
+        {
+          "id": "dessert-banoffee",
+          "name": "Banoffee pie",
+          "price": 9
+        }
+      ]
+    },
+    {
+      "id": "sodas",
+      "title": "HOUSE SODAS",
+      "note": "7 / 14 oz",
+      "items": [
+        {
+          "id": "soda-cocoa-bergamot",
+          "name": "Cocoa / bergamot",
+          "price": 4,
+          "priceText": "$4 / $6",
+          "unit": "7 / 14 oz"
+        },
+        {
+          "id": "soda-cola-nah",
+          "name": "Cola-NAX",
+          "price": 4,
+          "priceText": "$4 / $6",
+          "unit": "7 / 14 oz"
+        },
+        {
+          "id": "soda-duchesse-nah",
+          "name": "Duchesse-NAX",
+          "price": 4,
+          "priceText": "$4 / $6",
+          "unit": "7 / 14 oz"
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "title": "COFFEE",
+      "items": [
+        {
+          "id": "coffee-espresso",
+          "name": "Espresso",
+          "price": 3,
+          "unit": "1.5 oz"
+        },
+        {
+          "id": "coffee-americano",
+          "name": "Americano",
+          "price": 4,
+          "unit": "7 oz"
+        },
+        {
+          "id": "coffee-cappuccino",
+          "name": "Cappuccino",
+          "price": 5,
+          "unit": "7 oz"
+        },
+        {
+          "id": "coffee-latte",
+          "name": "Latte",
+          "price": 6,
+          "unit": "10 oz"
+        },
+        {
+          "id": "coffee-filter",
+          "name": "Filter",
+          "price": 4,
+          "unit": "8 oz"
+        },
+        {
+          "id": "coffee-espresso-tonic",
+          "name": "Espresso tonic",
+          "price": 6,
+          "unit": "10 oz"
+        },
+        {
+          "id": "coffee-bumble",
+          "name": "Bumble",
+          "price": 7,
+          "unit": "10 oz"
+        }
+      ]
+    },
+    {
+      "id": "draft-beer",
+      "title": "DRAFT BEER",
+      "note": "14 oz",
+      "items": [
+        {
+          "id": "beer-lager-nah",
+          "name": "Lager-NAX",
+          "price": 8,
+          "unit": "14 oz"
+        },
+        {
+          "id": "beer-weiss-nah",
+          "name": "Weiss-NAX",
+          "price": 8,
+          "unit": "14 oz"
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "title": "DRINKS",
+      "items": [
+        {
+          "id": "drink-cola",
+          "name": "Cola / Cola Zero",
+          "price": 3,
+          "unit": "12 oz"
+        },
+        {
+          "id": "drink-water",
+          "name": "Water, sparkling / still",
+          "price": 2,
+          "unit": "17 oz"
+        },
+        {
+          "id": "drink-burn",
+          "name": "Burn",
+          "price": 4,
+          "unit": "10 oz"
+        },
+        {
+          "id": "drink-juice",
+          "name": "Juice",
+          "price": 4,
+          "unit": "10 oz",
+          "flavours": [
+            "orange",
+            "cherry",
+            "apple"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": []
+}
